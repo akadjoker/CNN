@@ -155,8 +155,8 @@ class LabelTool:
             print(f"Pontos salvos em {label_file}")
             
             # Salvar máscara se houver pontos
-            if len(self.points) >= 3:
-                self.save_mask()
+            #if len(self.points) >= 3:
+            #    self.save_mask()
                 
         except Exception as e:
             print(f"Erro ao salvar pontos: {e}")
