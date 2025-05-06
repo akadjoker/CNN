@@ -4,7 +4,7 @@ import numpy as np
 from models import LaneNet
 
 # --- CONFIGURAÇÕES ---
-video_path = "/home/djoker/code/cuda/centro.mp4"  
+video_path = "/home/djoker/code/cuda/video_20250410_071911.avi"  
 output_video_path = "output_video.avi"
 frame_width = 160
 frame_height = 80
