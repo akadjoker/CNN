@@ -125,7 +125,7 @@ def main():
         # Verificar se é o melhor modelo
         if avg_val_loss < best_val_loss:
             best_val_loss = avg_val_loss
-            torch.save(model.state_dict(), "best_model.pth")
+            torch.save(model.state_dict(), "small_model.pth")
             print(">>> Novo melhor modelo guardado!")
             epochs_without_improvement = 0
         else:

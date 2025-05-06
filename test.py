@@ -22,7 +22,7 @@ if not cap.isOpened():
     print("Erro ao abrir vídeo.")
     exit()
 
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
+fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter(output_video_path, fourcc, 20.0, (frame_width*4, frame_height*4))  # upscale para melhor visualização
 
 while cap.isOpened():

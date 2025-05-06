@@ -5,8 +5,8 @@ import os
 from tqdm import tqdm
 
 # Caminhos das pastas
-images_dir = "images"
-masks_dir = "masks"
+images_dir = "out/images"
+masks_dir = "out/mask"
 
 # Definir tamanho alvo (para bater certo com o modelo)
 target_size = (160, 80)  # largura, altura
